@@ -1,2 +1,2 @@
-# paperless-ngx HomeAssistant benachrichtung
+# paperless-ngx HomeAssistant Benachrichtigung
 
