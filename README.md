@@ -1,1 +1,1 @@
-# paperless
+# Dokument Informationen von paperless-ngx zu Home Assistant
