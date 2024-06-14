@@ -1,1 +1,2 @@
-# Dokument Informationen von paperless-ngx zu Home Assistant
+# paperless-ngx HomeAssistant benachrichtung
+
