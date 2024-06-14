@@ -1,0 +1,38 @@
+- sensor:
+    ###################################################################
+    #                                                                 #
+    #          Definition von Sensoren für Paperless                  #
+    #                     mit Attributen                              #
+    #                                                                 #
+    ###################################################################
+    - name: "Paperless Dokument eingelesen"
+      state: >
+        {{ states('sensor.paperless_file_name')}}
+      unique_id: df1e6955786d45e9878bc39f9f654d50
+      attributes:
+        id:  >
+          {{ states('sensor.paperless_id')}}
+        created: >
+          {{ states('sensor.paperless_created')}}
+        modified: >
+          {{ states('sensor.paperless_modified')}}
+        added: >
+          {{ states('sensor.paperless_added')}}
+        source_path: >
+          {{ states('sensor.paperless_source_path')}}
+        archive_path:  >
+          {{ states('sensor.paperless_archive_path')}}
+        thumbnail_path: >
+          {{ states('sensor.paperless_thumbnail_path')}}
+        download_url: >-
+          http://192.168.178.2:27030{{ states('sensor.paperless_download_url')}}
+        thumbnail_url: >-
+          http://192.168.178.2:27030{{ states('sensor.paperless_thumbnail_url')}}
+        correspondent: >
+          {{ states('sensor.paperless_correspondent')}}
+        tags: >
+          {{ states('sensor.paperless_tags')}}
+        original_filename: >
+          {{ states('sensor.paperless_original_filename')}}
+        task_id: >
+          {{ states('sensor.paperless_task_id')}}
