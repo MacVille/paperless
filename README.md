@@ -15,6 +15,6 @@ Dies sind die Einstellungen welche man treffen muss für UnRaid als Dockerhost.
 
 |Name   |HOSTEPATH   |CONTAINERPATH   |Beschreibung|
 |---|---|---|---|
-|PAPERLESS_START_UP_SCRIPT|/mnt/user/paperless/custom_scripts   |/custom-cont-init.d   |    |
-|   |   |   |   |
-|   |   |   |   |
+|PAPERLESS_START_UP_SCRIPT|/mnt/user/paperless/custom_scripts   |/custom-cont-init.d   | Skripte welche unter diesem Verzeichnis liegen, werden vor dem Starten des Webservers ausgeführt. Somit kommen bei jeden Neustart oder Update des Containers Funktionen installiert werden   |
+| PAPERLESS_POST_CONSUME_SCRIPT  |   | /usr/src/paperless/scripts/post-consumption.sh  |   |
+| PAPERLESS_POST_CONSUMPTION_FOLDER  | /mnt/user/paperless/consume_script  | /usr/src/paperless/scripts  |   |
