@@ -10,7 +10,7 @@
 ### WICHTIG! Bei Docker Installation (Hier UnRaid)
 
 Damit der MQTT Client nahezu Persistent ist, muss in der Docker Konfiguration folgendes definerit sein:
-![Docker Config](https://github.com/MacVille/paperless/blob/caba4a5125621179cb6bfb5fa11c7fcf20ca1d75/img/Screenshot%202024-06-15%20011815.png)
+![Docker Config](/img/Screenshot%202024-06-15%20011815.png)
 Dies sind die Einstellungen welche man treffen muss für UnRaid als Dockerhost.
 
 |Name|HOSTEPATH|CONTAINERPATH|Beschreibung|
