@@ -13,7 +13,7 @@ Damit der MQTT Client nahezu Persistent ist, muss in der Docker Konfiguration fo
 ![Docker Config](https://github.com/MacVille/paperless/blob/caba4a5125621179cb6bfb5fa11c7fcf20ca1d75/img/Screenshot%202024-06-15%20011815.png)
 Dies sind die Einstellungen welche man treffen muss für UnRaid als Dockerhost.
 
-|Name   |HOSTEPATH   |CONTAINERPATH   |Beschreibung|
+|Name|HOSTEPATH|CONTAINERPATH|Beschreibung|
 |---|---|---|---|
 |PAPERLESS_START_UP_SCRIPT|/mnt/user/paperless/custom_scripts   |/custom-cont-init.d   | Skripte welche unter diesem Verzeichnis liegen, werden vor dem Starten des Webservers ausgeführt. Somit kommen bei jeden Neustart oder Update des Containers Funktionen installiert werden   |
 | PAPERLESS_POST_CONSUME_SCRIPT  |   | /usr/src/paperless/scripts/post-consumption.sh  | Dieses Bash-Skript wird nach jeder Verarbeitung eines Dokumentes ausgeführt  |
